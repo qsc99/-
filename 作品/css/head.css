@@ -1,0 +1,436 @@
+body {
+  margin: 0;
+  background: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+i {
+  font-style: normal;
+}
+dl {
+  margin: 0;
+}
+dl dd {
+  margin: 0;
+}
+em {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.top {
+  width: 100%;
+  height: 2.70833333rem;
+  padding-top: 0.76388889rem;
+  padding-left: 0.43981481rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 999999;
+}
+.top .logo {
+  margin: 0;
+  font-size: 0;
+  width: 5.81018519rem;
+  height: 100%;
+  float: left;
+}
+.top .logo img {
+  width: 5.37037037rem;
+  height: 1.875rem;
+}
+.top .shous {
+  width: 15.32407407rem;
+  height: 1.875rem;
+  background: #f1f1f1;
+  border-radius: 0.37037037rem;
+  float: left;
+  padding: 0 0.41666667rem;
+}
+.top .shous span {
+  display: inline-block;
+  height: 100%;
+  width: 1.2037037rem;
+  background: url(../img/sos.png) no-repeat center;
+  background-size: 100%;
+  float: left;
+  margin-right: 0.50925926rem;
+}
+.top .shous #sos_tanc {
+  width: 11.57407407rem;
+  height: 100%;
+  border: none;
+  padding: 0;
+  font: 0.74074074rem / 1.875rem "微软雅黑";
+  background-color: inherit;
+  float: left;
+  outline: none;
+}
+.top .sign {
+  margin-right: 0.74074074rem;
+  width: 1.78240741rem;
+  height: 1.875rem;
+  float: right;
+}
+.top .sign img {
+  width: 100%;
+  height: 100%;
+}
+#page {
+  padding-top: 3.47222222rem;
+}
+#page #tab {
+  position: relative;
+  width: 100%;
+  height: 11.94444444rem;
+  overflow: hidden;
+}
+#page #tab #picList {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 11.96759259rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+#page #tab #picList li {
+  float: left;
+  width: 100%;
+}
+#page #tab #picList img {
+  width: 100%;
+  height: 11.96759259rem;
+}
+#page #tab #nav {
+  position: absolute;
+  left: 0;
+  bottom: 0.69444444rem;
+  width: 100%;
+  height: 0.5787037rem;
+  text-align: center;
+}
+#page #tab #nav span {
+  display: inline-block;
+  width: 0.5787037rem;
+  height: 0.5787037rem;
+  background: #fff;
+  border-radius: 100%;
+  vertical-align: top;
+}
+#page #tab #nav .active {
+  width: 0.5787037rem;
+  background: red;
+}
+.nav-q {
+  width: 100%;
+  height: 10.87962963rem;
+  padding-top: 0.90277778rem;
+}
+.nav-q .nav-q1 {
+  width: 6.22685185rem;
+  height: 5.06944444rem;
+  float: left;
+  text-align: center;
+}
+.nav-q .nav-q1 img {
+  width: 2.93981481rem;
+  height: 2.93981481rem;
+  margin: 0 auto;
+  display: block;
+}
+.nav-q .nav-q1 .nav-q2 {
+  width: 6.22685185rem;
+  font: 0.78703704rem / 2.12962963rem "微软雅黑";
+  color: #5f5f5f;
+  display: inline-block;
+  vertical-align: top;
+}
+.city {
+  width: 100%;
+  height: 3.28703704rem;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+.city .text {
+  margin: 0;
+  width: 22.24537037rem;
+  height: 2.15277778rem;
+  background: #fff;
+  border-radius: 0.92592593rem;
+  margin-top: 0.5787037rem;
+  margin-left: 0.74074074rem;
+  font: 0.78703704rem / 2.15277778rem "微软雅黑";
+  padding-left: 1.22685185rem;
+  color: #5f5f5f;
+}
+.city .text a {
+  color: #3c8fff;
+  text-decoration: none;
+}
+.city .text em {
+  font-style: normal;
+}
+.region {
+  width: 23.47222222rem;
+  height: 11.06481481rem;
+  margin: 0 auto;
+}
+.region .picture {
+  width: 9.35185185rem;
+  height: 11.06481481rem;
+  background: url(../img/jiank_meis.jpg) no-repeat center;
+  background-size: 100%;
+  float: left;
+}
+.region .picture i {
+  width: 9.35185185rem;
+  height: 11.06481481rem;
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  overflow: hidden;
+}
+.region .picture i p {
+  font: 0.83333333rem / 0.83333333rem "微软雅黑";
+  color: #fff;
+  text-align: center;
+  margin-top: 3.19444444rem;
+  margin-bottom: 0.90277778rem;
+}
+.region .picture i span {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.region .whole {
+  width: 13.24074074rem;
+  height: 5.09259259rem;
+  float: left;
+  margin-left: 0.85648148rem;
+}
+.region .whole dt {
+  margin-top: 0.60185185rem;
+  margin-bottom: 0.69444444rem;
+  font: 0.83333333rem / 0.83333333rem "微软雅黑";
+  color: #5f5f5f;
+}
+.region .whole dd {
+  width: 2.31481481rem;
+  height: 0.69444444rem;
+  float: left;
+  font: 0.69444444rem / 0.69444444rem "微软雅黑";
+  margin-right: 0.99537037rem;
+  margin-bottom: 0.69444444rem;
+  color: #9d9d9d;
+}
+.region ul {
+  float: left;
+}
+.region ul li {
+  width: 6.875rem;
+  height: 5.97222222rem;
+  float: left;
+  margin-left: 0.16203704rem;
+}
+.region ul li img {
+  width: 100%;
+  height: 100%;
+}
+.line {
+  width: 100%;
+  height: 0.06944444rem;
+  background: #f1f1f1;
+  margin: 0.69444444rem 0;
+}
+.furniture {
+  width: 100%;
+  height: 3.14814815rem;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.furniture .img1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.furniture .img2 {
+  width: 1.96759259rem;
+  height: 1.27314815rem;
+  position: absolute;
+  bottom: 0.99537037rem;
+  left: 0.76388889rem;
+}
+.furniture p {
+  width: 4.56018519rem;
+  font: 0.87962963rem / 3.14814815rem "微软雅黑";
+  left: 3.24074074rem;
+  color: #444;
+  position: absolute;
+}
+.furniture span {
+  left: 7.87037037rem;
+  position: absolute;
+  display: block;
+  font: 0.5787037rem / 3.14814815rem "微软雅黑";
+  color: #aaa;
+  text-transform: uppercase;
+}
+.furniture a {
+  right: 0.76388889rem;
+  position: absolute;
+  color: #444;
+  font: 0.74074074rem / 3.14814815rem "微软雅黑";
+}
+.content {
+  width: 100%;
+  height: 23.84259259rem;
+}
+.content .furniture-1 {
+  width: 100%;
+  height: 11.62037037rem;
+  border-bottom: 0.09259259rem solid #dedede;
+}
+.content .furniture-1 .rent {
+  width: 12.43055556rem;
+  height: 100%;
+  float: left;
+}
+.content .furniture-1 .rent p {
+  padding-top: 1.66666667rem;
+  padding-left: 0.87962963rem;
+  color: #ff5939;
+  font: 0.87962963rem / 1.59722222rem "微软雅黑";
+}
+.content .furniture-1 .rent span {
+  display: block;
+  margin-left: 0.87962963rem;
+  font: 0.74074074rem / 0.74074074rem "微软雅黑";
+  color: #bdbdbd;
+}
+.content .furniture-1 .rent i {
+  display: block;
+  width: 7.63888889rem;
+  height: 5.69444444rem;
+  background: url(../images/web/yic_c.jpg) no-repeat center;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-top: 1.15740741rem;
+}
+.content .furniture-1 .tool {
+  width: 12.5rem;
+  height: 100%;
+  float: left;
+}
+.content .furniture-1 .tool .lighting {
+  width: 100%;
+  height: 4.07407407rem;
+  border-left: 0.06944444rem solid #dedede;
+  border-bottom: 0.06944444rem solid #dedede;
+  overflow: hidden;
+}
+.content .furniture-1 .tool .lighting .lighting-1 {
+  width: 6.13425926rem;
+  height: 2.80092593rem;
+  margin-top: 1.27314815rem;
+  margin-left: 0.94907407rem;
+  float: left;
+}
+.content .furniture-1 .tool .lighting .lighting-1 .li1 {
+  font: 0.87962963rem / 0.87962963rem "微软雅黑";
+  color: #b124cb;
+}
+.content .furniture-1 .tool .lighting .lighting-1 .li2 {
+  margin-top: 0.39351852rem;
+  font: 0.74074074rem / 0.74074074rem "微软雅黑";
+  color: #bdbdbd;
+}
+.content .furniture-1 .tool .lighting p {
+  width: 2.77777778rem;
+  height: 2.77777778rem;
+  background: url(../images/web/yic_d.jpg) no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+  top: 0.81018519rem;
+  left: 8.31018519rem;
+}
+.content .furniture-1 .tool .tool-1 {
+  width: 100%;
+  height: 7.5rem;
+  overflow: hidden;
+}
+.content .furniture-1 .tool .tool-1 li {
+  width: 6.18055556rem;
+  height: 100%;
+  border-left: 0.06944444rem solid #dedede;
+  float: left;
+  text-align: center;
+}
+.content .furniture-1 .tool .tool-1 li .active {
+  color: #1f98ff;
+}
+.content .furniture-1 .tool .tool-1 li i {
+  width: 100%;
+  height: 0.78703704rem;
+  display: block;
+  margin-top: 0.76388889rem;
+  font: 0.78703704rem / 0.78703704rem "微软雅黑";
+  color: #1fff1f;
+}
+.content .furniture-1 .tool .tool-1 li p {
+  width: 100%;
+  height: 1.62037037rem;
+  font: 0.78703704rem / 1.62037037rem "微软雅黑";
+  color: #bdbdbd;
+}
+.content .furniture-1 .tool .tool-1 li img {
+  width: 4.9537037rem;
+  height: 3.77314815rem;
+}
+.content .furniture-2 {
+  width: 100%;
+  height: 12.15277778rem;
+}
+.content .furniture-2 .active {
+  border-right: 0.06944444rem solid #dedede;
+}
+.content .furniture-2 li {
+  width: 12.43055556rem;
+  height: 100%;
+  float: left;
+}
+.content .furniture-2 li p {
+  font: 0.87962963rem / 0.87962963rem "微软雅黑";
+  color: #545454;
+  margin-top: 1.68981481rem;
+  margin-left: 0.87962963rem;
+}
+.content .furniture-2 li i {
+  display: block;
+  font: 0.69444444rem / 1.48148148rem "微软雅黑";
+  color: #e10601;
+  margin-left: 0.87962963rem;
+}
+.content .furniture-2 li img {
+  width: 7.87037037rem;
+  height: 5.78703704rem;
+  margin-top: 1.15740741rem;
+  margin-left: 2.08333333rem;
+}
+.content-1 {
+  width: 100%;
+  height: 22.15277778rem;
+  border-bottom: 0.06944444rem solid #dedede;
+}
