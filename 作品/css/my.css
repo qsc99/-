@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  background: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+i {
+  font-style: normal;
+}
+dl {
+  margin: 0;
+}
+dl dd {
+  margin: 0;
+}
+em {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.top {
+  width: 100%;
+  height: 3.47222222rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 999999;
+  text-align: center;
+  font: 0.97222222rem / 3.47222222rem "微软雅黑";
+}
+.top i {
+  width: 2.31481481rem;
+  height: 100%;
+  display: block;
+  float: left;
+  margin-left: 0.92592593rem;
+}
+.top i img {
+  margin-top: 1.01851852rem;
+  width: 0.69444444rem;
+  height: 1.38888889rem;
+}
+.top em {
+  width: 2.31481481rem;
+  height: 100%;
+  display: block;
+  float: right;
+  margin-right: 0.81018519rem;
+}
+.top em img {
+  margin-top: 0.81018519rem;
+  width: 1.73611111rem;
+  height: 1.73611111rem;
+}
+.box {
+  width: 100%;
+  height: 11.73611111rem;
+  background: url(../images/web/sandnab.jpg) no-repeat center;
+  background-size: 100%;
+  margin-top: 3.47222222rem;
+  text-align: center;
+  font: 0.97222222rem / 1.71296296rem "微软雅黑";
+  color: #fff;
+}
+.box img {
+  display: inline-block;
+  width: 4.86111111rem;
+  height: 4.86111111rem;
+  margin-top: 2.36111111rem;
+  border-radius: 100%;
+  vertical-align: top;
+}
+.box a {
+  width: 1.50462963rem;
+  height: 1.50462963rem;
+  float: right;
+  margin-right: 1.94444444rem;
+}
+.box a img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.whole {
+  width: 100%;
+  height: 3.33333333rem;
+  font: 0.92592593rem / 3.33333333rem "微软雅黑";
+  color: #535353;
+  text-align: center;
+}
+.whole img {
+  width: 0.92592593rem;
+  height: 0.92592593rem;
+  margin-top: 1.22685185rem;
+  vertical-align: top;
+}
+.nav {
+  width: 100%;
+  height: 9.51388889rem;
+  border-top: 0.06944444rem solid #ebebeb;
+}
+.nav li {
+  width: 6.18055556rem;
+  height: 4.72222222rem;
+  float: left;
+  border-right: 0.06944444rem solid #ebebeb;
+  border-bottom: 0.06944444rem solid #ebebeb;
+  text-align: center;
+}
+.nav li img {
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.69444444rem;
+}
+.nav li p {
+  width: 6.18055556rem;
+  font: 0.92592593rem / 2.06018519rem "微软雅黑";
+  color: #5f5f5f;
+  display: inline-block;
+  vertical-align: top;
+}
+.nav li:nth-child(4) {
+  border-right: 0;
+}
+.nav li:nth-child(8) {
+  border-right: 0;
+}
+.hot {
+  width: 100%;
+  height: 3.19444444rem;
+  background: #f5f5f5;
+  text-align: center;
+  line-height: 3.19444444rem;
+}
+.hot em {
+  height: 0.06944444rem;
+  width: 6.62037037rem;
+  display: inline-block;
+  float: left;
+  background: #d6d6d6;
+  margin-top: 1.5625rem;
+  margin-left: 1.50462963rem;
+  margin-right: 1.50462963rem;
+}
+.hot .mingz {
+  overflow: hidden;
+  color: #444;
+  float: left;
+}
+.hot .mingz i {
+  display: inline-block;
+  width: 1.11111111rem;
+  height: 1.11111111rem;
+  background: url(../images/web/xiangxjiat.png);
+  background-size: 100%;
+  margin-top: 0.97222222rem;
+  float: left;
+}
+.hot .mingz p {
+  float: left;
+  text-indent: 0.46296296rem;
+}
+.hot_content {
+  width: 100%;
+  height: 60.83333333rem;
+  margin-bottom: 3.54166667rem;
+}
+.hot_content li {
+  width: 49.8%;
+  height: 15.16203704rem;
+  float: left;
+  border-bottom: 0.06944444rem solid #dedede;
+}
+.hot_content li img {
+  margin-left: 0.5787037rem;
+  margin-top: 0.97222222rem;
+  width: 11.2962963rem;
+  height: 8.33333333rem;
+}
+.hot_content li i {
+  margin-top: 0.97222222rem;
+  display: block;
+  font: 0.78703704rem / 1.2962963rem "微软雅黑";
+  color: #555;
+  word-break: break-all;
+  margin-left: 0.92592593rem;
+}
+.hot_content li em {
+  display: block;
+  font: 0.69444444rem / 1.22685185rem "微软雅黑";
+  color: #e10601;
+  text-indent: 0.92592593rem;
+}
+.hot_content li:nth-child(2n) {
+  border-left: 0.06944444rem solid #dedede;
+}
+.bottom {
+  width: 100%;
+  height: 3.47222222rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 999999;
+}
+.bottom a {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+.bottom a img {
+  width: 1.50462963rem;
+  height: 1.38888889rem;
+  display: block ;
+  padding-top: 0.46296296rem;
+  margin: 0 auto;
+}
+.bottom a p {
+  height: 1.43518519rem;
+  font: 0.69444444rem / 1.43518519rem "微软雅黑";
+  color: #797979;
+}
